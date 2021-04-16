@@ -13,6 +13,12 @@ class rope{
     fly(){
         this.rope.bodyA = null;
     }
+    attach(body){
+
+
+this.rope.bodyA=body;
+
+    }
 
     display(){
         if(this.rope.bodyA){

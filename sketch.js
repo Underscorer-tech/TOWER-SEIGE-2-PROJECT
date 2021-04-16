@@ -104,3 +104,18 @@ function mouseDragged(){
   Matter.Body.setPosition(poly.body,{x:mouseX,y:mouseY})
   
   }
+
+function keyPressed(){
+
+if(keyCode === 32){
+
+
+rope1.attach(poly.body)
+
+
+}
+
+
+
+}
+
